@@ -1,0 +1,13 @@
+un premier exemple: un cours de 267 personnes [MATH-493] en CO2 (fits 218) les mardis de 16 à 18h alors que le CO1 est libre à cet horaire là
+
+un second exemple: un cours de 202 pers [AR-212] en CM13 (fits 190) les vendredis 13h à 17h alors que le CO2 (fits 218) est utilisé par CS-439 de 13h à 15h par 87 pers. Aussi probastatsII MATH-236 208 pers sont en CM 1 1 en même temps
+
+un troisième exemple (ptet le pire for now): Deep learning EE 559 pour 150 personnes au ROLEX (600 places) le mercredi 8h-10h, t'as Computer systems CS-202 pour 484 personnes en mm temps en SG1 (350 places), y aussi un cours d'Analyse II en mm temps pour 449 pers en CO1 (fits 342)
+
+quatrième exemple: Fluid mechanics pour SV BIOENG-312 (18 pers) CE 1 2 lundi 13h à 15h alors qu'à côté Solid Mechanics ME-331 manque de place (c'est en CM15, 129 places pour 165 places)
+
+cinquième exemple: Physiologie par systèmes BIO-377 149 pers en ELA1 (122 places) en même temps qu’Image Processing II MICRO-512 43 pers en CM12 (190 places)
+
+sixième exemple: Randomness in biological data BIO-369 125 pers en BS 170 (100 places) en même temps qu’Air Pollution ENV-409 63 pers en CM14 (129 places)
+
+
