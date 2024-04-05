@@ -1,5 +1,5 @@
 import sys
-sys.stdout = open('results/res.txt', 'w')
+sys.stdout = open('results/results.txt', 'w')
 
 from architecture import Lecture
 from preprocessing import construct_all_lectures
