@@ -13,10 +13,13 @@ def entry_to_lecture(entry, course_participants) -> Optional[Lecture]:
         num_participants = same_course_code.iloc[0]["participants"]
         if not np.isnan(num_participants):
             lecture = Lecture(
+                code=entry["course_code"],
+                title=entry["title"],
                 num_participants=num_participants,
                 allocated_room=Room(entry["room_capacity"], entry["room_name"]),
                 timeslot=str_to_timeslot(entry["start_datetime"], entry["end_datetime"]),
-                already_swapped=False
+                already_swapped=False,
+                overbooked=num_participants > entry["room_capacity"]
             )
             return lecture
     return None
