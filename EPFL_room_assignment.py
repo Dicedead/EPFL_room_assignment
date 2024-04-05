@@ -8,7 +8,7 @@ from preprocessing import construct_all_lectures
 def print_swap(l1: Lecture, l2: Lecture):
     print(f"Swap: {l1.code} {l1.title} ({l1.num_participants} people in {l1.allocated_room.name}"
           f" (capacity : {l1.allocated_room.capacity}) on {l1.timeslot.day} from {l1.timeslot.time[0]}:15 "
-          f"till {l1.timeslot.time[1]}):00 with {l2.code} {l2.title} ({l2.num_participants} people in "
+          f"till {l1.timeslot.time[1]}:00) with {l2.code} {l2.title} ({l2.num_participants} people in "
           f"{l2.allocated_room.name} (capacity : {l2.allocated_room.capacity}))")
 
 
