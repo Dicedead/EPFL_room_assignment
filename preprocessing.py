@@ -36,7 +36,6 @@ def entry_to_lecture(entry, course_participants) -> Optional[Lecture]:
 def str_to_timeslot(start_str: str, end_str: str, datetime_format='%Y-%m-%d %H:%M:%S') -> Timeslot:
     start_datetime_obj = datetime.datetime.strptime(start_str, datetime_format)
     end_datetime_obj = datetime.datetime.strptime(end_str, datetime_format)
-    tmp = start_datetime_obj.weekday()
     weekday = WeekDay(start_datetime_obj.weekday() + 1).name
     start_hour = start_datetime_obj.hour
     end_hour = end_datetime_obj.hour
