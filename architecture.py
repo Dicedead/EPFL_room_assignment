@@ -19,7 +19,10 @@ class Room:
 
 @dataclass
 class Lecture:
+    code: str
+    title: str
     num_participants: int
     allocated_room: Room
     timeslot: Timeslot
     already_swapped: bool
+    overbooked: bool
