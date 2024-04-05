@@ -10,6 +10,7 @@ class Timeslot:
     day: WeekDay
     time: Time
 
+
 @dataclass
 class Room:
     capacity: int
