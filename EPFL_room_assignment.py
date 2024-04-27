@@ -1,7 +1,7 @@
 import sys
 sys.stdout = open('results/results.txt', 'w')
 
-from architecture import Lecture
+from architecture import Lecture, CourseType
 from preprocessing import construct_all_lectures
 
 
@@ -34,9 +34,15 @@ def find_better_room(lecture, all_lectures) -> bool:
 
 
 lectures = construct_all_lectures("data/course_bookings.csv", "data/courses_with_participants.csv")
-overbooked_lectures = [overbooked_lecture for overbooked_lecture in lectures if overbooked_lecture.overbooked]
+overbooked_lectures = [lect for lect in lectures if lect.overbooked and lect.type == CourseType.Lecture]
 overbooked_lectures.sort(key=lambda x: x.num_participants, reverse=True)
+
+num_overbooked_students = 0
+for lect in overbooked_lectures:
+    num_overbooked_students += lect.num_participants - lect.allocated_room.capacity
+
 print(f"Number of overbooked lectures: {len(overbooked_lectures)}")
+print(f"Number of students in overbooked lectures: {num_overbooked_students}")
 print("=========================================================================")
 print("=========================================================================")
 overbooked_lectures_no_solution = []
@@ -48,3 +54,12 @@ print("=========================================================================
 print(f"Number of overbooked lectures for which no solution is found: {len(overbooked_lectures_no_solution)}")
 print(f"Number of overbooked lectures for which a solution is found: "
       f"{len(overbooked_lectures) - len(overbooked_lectures_no_solution)}")
+
+new_num_overbooked_students = 0
+for lect in overbooked_lectures:
+    new_num_overbooked_students += lect.num_participants - lect.allocated_room.capacity
+
+print(f"New number of students in overbooked lectures: {new_num_overbooked_students}")
+print(f"Improvement: {(1 - new_num_overbooked_students/num_overbooked_students) * 100:.2f}% less students in overbooked lectures")
+
+

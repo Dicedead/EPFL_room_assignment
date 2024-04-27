@@ -19,8 +19,9 @@ def entry_to_lecture(entry, course_participants) -> Optional[Lecture]:
     same_course_code = course_participants[course_participants["course_code"] == entry["course_code"]]
     if len(same_course_code) > 0:
         num_participants = same_course_code.iloc[0]["participants"]
-        if not np.isnan(num_participants):
+        if not np.isnan(num_participants) and not np.isnan(entry["room_capacity"]):
             lecture = Lecture(
+                type=CourseType.Lecture if entry["label"] == "cours" else CourseType.Other,
                 code=entry["course_code"],
                 title=entry["course_name"],
                 num_participants=int(num_participants),
@@ -48,8 +49,6 @@ def construct_all_lectures(course_bookings_path: str, course_participants_path: 
 
     course_bookings = pd.read_csv(course_bookings_path)
     course_participants = pd.read_csv(course_participants_path)
-
-    course_bookings = course_bookings[course_bookings["label"] == "cours"]
 
     for i in range(len(course_bookings)):
         entry = course_bookings.iloc[i]

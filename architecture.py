@@ -3,6 +3,7 @@ from enum import Enum
 
 WeekDay = Enum("WeekDay", ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
 Time = (int, int)
+CourseType = Enum("CourseType", ["Lecture", "Other"])
 
 
 @dataclass
@@ -19,6 +20,7 @@ class Room:
 
 @dataclass
 class Lecture:
+    type: CourseType
     code: str
     title: str
     num_participants: int
