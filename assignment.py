@@ -1,5 +1,7 @@
 import sys
-sys.stdout = open('results/results_biggest_choice.txt', 'w')
+from copy import deepcopy
+
+sys.stdout = open('results/results_only_physics.txt', 'w')
 
 from preprocessing_stats import *
 
@@ -33,7 +35,7 @@ def find_better_room(lecture, all_lectures) -> bool:
     return False
 
 
-sessions = construct_all_sessions("data/occup.csv")
+sessions = construct_all_sessions("data/occup_only_physics.csv")
 overbooked_lectures = [lect for lect in sessions if lect.overbooked and lect.type == SessionType.Lecture]
 overbooked_lectures.sort(key=lambda x: x.num_participants - x.allocated_room.capacity)
 
@@ -50,7 +52,6 @@ while len(overbooked_lectures) > 0:
     lecture = overbooked_lectures.pop()
     candidate_lectures = [swap_lecture for swap_lecture in sessions if
                           (lecture.timeslot == swap_lecture.timeslot
-                           and not swap_lecture.overbooked
                            and lecture.num_participants > swap_lecture.num_participants
                            and lecture.allocated_room.capacity < swap_lecture.allocated_room.capacity
                            )
@@ -84,5 +85,3 @@ for lect in new_overbooked_lectures:
 
 print(f"New number of students in overbooked lectures: {new_num_overbooked_students}")
 print(f"Improvement: {(1 - new_num_overbooked_students/num_overbooked_students) * 100:.2f}% less students in overbooked lectures")
-
-

@@ -15,13 +15,13 @@ def unique(list1):
     return unique_list
 
 
-def entry_to_lecture(entry, course_participants) -> Optional[Lecture]:
+def entry_to_lecture(entry, course_participants) -> Optional[Session]:
     same_course_code = course_participants[course_participants["course_code"] == entry["course_code"]]
     if len(same_course_code) > 0:
         num_participants = same_course_code.iloc[0]["participants"]
         if not np.isnan(num_participants) and not np.isnan(entry["room_capacity"]):
-            lecture = Lecture(
-                type=CourseType.Lecture if entry["label"] == "cours" else CourseType.Other,
+            lecture = Session(
+                type=SessionType.Session if entry["label"] == "cours" else SessionType.Other,
                 code=entry["course_code"],
                 title=entry["course_name"],
                 num_participants=int(num_participants),
@@ -44,11 +44,12 @@ def str_to_timeslot(start_str: str, end_str: str, datetime_format='%Y-%m-%d %H:%
     return Timeslot(weekday, (start_hour, end_hour))
 
 
-def construct_all_lectures(course_bookings_path: str, course_participants_path: str):
+def construct_all_sessions(course_bookings_path: str, course_participants_path: str):
     all_lectures = []
 
-    course_bookings = pd.read_csv(course_bookings_path)
-    course_participants = pd.read_csv(course_participants_path)
+    df = pd.read_excel("data/occup.xlsx")
+    df = df[3:]
+    df = df.rename(columns=df.iloc[0]).drop(df.index[0])
 
     for i in range(len(course_bookings)):
         entry = course_bookings.iloc[i]

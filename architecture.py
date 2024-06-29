@@ -3,12 +3,12 @@ from enum import Enum
 
 WeekDay = Enum("WeekDay", ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
 Time = (int, int)
-CourseType = Enum("CourseType", ["Lecture", "Other"])
+SessionType = Enum("CourseType", ["Lecture", "Other"])
 
 
 @dataclass
 class Timeslot:
-    day: WeekDay
+    day: str
     time: Time
 
 
@@ -19,8 +19,8 @@ class Room:
 
 
 @dataclass
-class Lecture:
-    type: CourseType
+class Session:
+    type: SessionType
     code: str
     title: str
     num_participants: int
@@ -28,3 +28,6 @@ class Lecture:
     timeslot: Timeslot
     already_swapped: bool
     overbooked: bool
+
+def weekday_str_to_obj(weekday_str: str) -> WeekDay:
+    return WeekDay(weekday_str)

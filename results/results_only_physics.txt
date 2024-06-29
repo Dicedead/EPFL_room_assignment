@@ -1,0 +1,12 @@
+Number of overbooked lectures: 13
+Number of students in overbooked lectures: 603
+=========================================================================
+=========================================================================
+Swap: PHYS-101(m) Physique générale : mécanique (IN II) (263 people in CE1 (capacity : 214) on thursday from 12:15 till 13:00) with PHYS-101(c) Physique générale : mécanique (IN I) (134 people in CE6 (capacity : 308))
+Swap: PHYS-101(m) Physique générale : mécanique (IN II) (263 people in CE1 (capacity : 214) on wednesday from 17:15 till 19:00) with PHYS-101(c) Physique générale : mécanique (IN I) (134 people in CE6 (capacity : 308))
+Swap: PHYS-101(k) Physique générale : mécanique (220 people in CO2 (capacity : 218) on tuesday from 10:15 till 11:00) with PHYS-101(j) Physique générale : mécanique (138 people in CE4 (capacity : 233))
+=========================================================================
+=========================================================================
+New number of overbooked lectures: 10
+New number of students in overbooked lectures: 503
+Improvement: 16.58% less students in overbooked lectures

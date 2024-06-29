@@ -1,0 +1,179 @@
+année académique plan,semestre plan,code matière,matière,section responsable,type d'enseignement,nb étudiants,jour,heure début séance,heure fin séance,espace (code),nb.places dans l'espace,nombre total d'espaces,nombre total de places,overbooking
+2023-2024,HIVER,PHYS-100,Physique avancée I (mécanique),Physique,Cours,339,tuesday,15:15,17:00,CE6,308,1,308,oui
+2023-2024,HIVER,PHYS-100,Physique avancée I (mécanique),Physique,Cours,339,wednesday,10:15,12:00,CE6,308,1,308,oui
+2023-2024,HIVER,PHYS-100,Physique avancée I (mécanique),Physique,Exercices,339,friday,09:15,10:00,CE6,308,1,308,oui
+2023-2024,HIVER,PHYS-100,Physique avancée I (mécanique),Physique,Exercices,339,friday,10:15,12:00,BS150,64,8,391,non
+2023-2024,HIVER,PHYS-100,Physique avancée I (mécanique),Physique,Exercices,339,friday,10:15,12:00,CM010,48,8,391,non
+2023-2024,HIVER,PHYS-100,Physique avancée I (mécanique),Physique,Exercices,339,friday,10:15,12:00,CM013,60,8,391,non
+2023-2024,HIVER,PHYS-100,Physique avancée I (mécanique),Physique,Exercices,339,friday,10:15,12:00,CM09,40,8,391,non
+2023-2024,HIVER,PHYS-100,Physique avancée I (mécanique),Physique,Exercices,339,friday,10:15,12:00,CO122,40,8,391,non
+2023-2024,HIVER,PHYS-100,Physique avancée I (mécanique),Physique,Exercices,339,friday,10:15,12:00,CO123,40,8,391,non
+2023-2024,HIVER,PHYS-100,Physique avancée I (mécanique),Physique,Exercices,339,friday,10:15,12:00,CO124,40,8,391,non
+2023-2024,HIVER,PHYS-100,Physique avancée I (mécanique),Physique,Exercices,339,friday,10:15,12:00,GRA332,59,8,391,non
+2023-2024,HIVER,PHYS-101(a),Physique générale : mécanique,Physique,Cours,238,tuesday,12:15,13:00,CE1,214,1,214,oui
+2023-2024,HIVER,PHYS-101(a),Physique générale : mécanique,Physique,Cours,238,thursday,08:15,10:00,CE3,214,3,1012,non
+2023-2024,HIVER,PHYS-101(a),Physique générale : mécanique,Physique,Cours,238,thursday,08:15,10:00,SG1,348,3,1012,non
+2023-2024,HIVER,PHYS-101(a),Physique générale : mécanique,Physique,Cours,238,thursday,08:15,10:00,STCC - Cloud C,450,3,1012,non
+2023-2024,HIVER,PHYS-101(a),Physique générale : mécanique,Physique,Exercices,238,tuesday,16:15,17:00,CE3,214,2,447,non
+2023-2024,HIVER,PHYS-101(a),Physique générale : mécanique,Physique,Exercices,238,tuesday,16:15,17:00,CE4,233,2,447,non
+2023-2024,HIVER,PHYS-101(a),Physique générale : mécanique,Physique,Exercices,238,tuesday,17:15,19:00,CM09,40,6,240,non
+2023-2024,HIVER,PHYS-101(a),Physique générale : mécanique,Physique,Exercices,238,tuesday,17:15,19:00,CO010,40,6,240,non
+2023-2024,HIVER,PHYS-101(a),Physique générale : mécanique,Physique,Exercices,238,tuesday,17:15,19:00,CO011,40,6,240,non
+2023-2024,HIVER,PHYS-101(a),Physique générale : mécanique,Physique,Exercices,238,tuesday,17:15,19:00,CO015,40,6,240,non
+2023-2024,HIVER,PHYS-101(a),Physique générale : mécanique,Physique,Exercices,238,tuesday,17:15,19:00,CO016,40,6,240,non
+2023-2024,HIVER,PHYS-101(a),Physique générale : mécanique,Physique,Exercices,238,tuesday,17:15,19:00,CO017,40,6,240,non
+2023-2024,HIVER,PHYS-101(c),Physique générale : mécanique (IN I),Physique,Cours,134,wednesday,17:15,19:00,CE6,308,1,308,non
+2023-2024,HIVER,PHYS-101(c),Physique générale : mécanique (IN I),Physique,Cours,134,thursday,12:15,13:00,CE6,308,1,308,non
+2023-2024,HIVER,PHYS-101(c),Physique générale : mécanique (IN I),Physique,Exercices,134,tuesday,10:15,12:00,CO010,40,7,280,non
+2023-2024,HIVER,PHYS-101(c),Physique générale : mécanique (IN I),Physique,Exercices,134,tuesday,10:15,12:00,CO011,40,7,280,non
+2023-2024,HIVER,PHYS-101(c),Physique générale : mécanique (IN I),Physique,Exercices,134,tuesday,10:15,12:00,CO015,40,7,280,non
+2023-2024,HIVER,PHYS-101(c),Physique générale : mécanique (IN I),Physique,Exercices,134,tuesday,10:15,12:00,CO016,40,7,280,non
+2023-2024,HIVER,PHYS-101(c),Physique générale : mécanique (IN I),Physique,Exercices,134,tuesday,10:15,12:00,CO017,40,7,280,non
+2023-2024,HIVER,PHYS-101(c),Physique générale : mécanique (IN I),Physique,Exercices,134,tuesday,10:15,12:00,CO122,40,7,280,non
+2023-2024,HIVER,PHYS-101(c),Physique générale : mécanique (IN I),Physique,Exercices,134,tuesday,10:15,12:00,CO123,40,7,280,non
+2023-2024,HIVER,PHYS-101(c),Physique générale : mécanique (IN I),Physique,Exercices,134,thursday,13:15,14:00,CE6,308,1,308,non
+2023-2024,HIVER,PHYS-101(d),Physique générale : mécanique,Physique,Cours,406,tuesday,08:15,10:00,CE6,308,1,308,oui
+2023-2024,HIVER,PHYS-101(d),Physique générale : mécanique,Physique,Cours,406,wednesday,16:15,17:00,CE6,308,1,308,oui
+2023-2024,HIVER,PHYS-101(d),Physique générale : mécanique,Physique,Cours,406,friday,15:15,18:00,CE6,308,1,308,oui
+2023-2024,HIVER,PHYS-101(d),Physique générale : mécanique,Physique,Exercices,406,monday,15:15,17:00,CO010,40,8,320,oui
+2023-2024,HIVER,PHYS-101(d),Physique générale : mécanique,Physique,Exercices,406,monday,15:15,17:00,CO011,40,8,320,oui
+2023-2024,HIVER,PHYS-101(d),Physique générale : mécanique,Physique,Exercices,406,monday,15:15,17:00,CO015,40,8,320,oui
+2023-2024,HIVER,PHYS-101(d),Physique générale : mécanique,Physique,Exercices,406,monday,15:15,17:00,CO016,40,8,320,oui
+2023-2024,HIVER,PHYS-101(d),Physique générale : mécanique,Physique,Exercices,406,monday,15:15,17:00,CO017,40,8,320,oui
+2023-2024,HIVER,PHYS-101(d),Physique générale : mécanique,Physique,Exercices,406,monday,15:15,17:00,CO122,40,8,320,oui
+2023-2024,HIVER,PHYS-101(d),Physique générale : mécanique,Physique,Exercices,406,monday,15:15,17:00,CO123,40,8,320,oui
+2023-2024,HIVER,PHYS-101(d),Physique générale : mécanique,Physique,Exercices,406,monday,15:15,17:00,CO124,40,8,320,oui
+2023-2024,HIVER,PHYS-101(d),Physique générale : mécanique,Physique,Exercices,406,monday,17:15,18:00,CE4,233,1,233,oui
+2023-2024,HIVER,PHYS-101(e),Physique générale : mécanique,Physique,Cours,306,wednesday,12:15,14:00,CE6,308,1,308,non
+2023-2024,HIVER,PHYS-101(e),Physique générale : mécanique,Physique,Cours,306,thursday,10:15,11:00,CE6,308,1,308,non
+2023-2024,HIVER,PHYS-101(e),Physique générale : mécanique,Physique,Exercices,306,wednesday,15:15,17:00,CE1100,64,8,459,non
+2023-2024,HIVER,PHYS-101(e),Physique générale : mécanique,Physique,Exercices,306,wednesday,15:15,17:00,CE1101,64,8,459,non
+2023-2024,HIVER,PHYS-101(e),Physique générale : mécanique,Physique,Exercices,306,wednesday,15:15,17:00,CE1105,72,8,459,non
+2023-2024,HIVER,PHYS-101(e),Physique générale : mécanique,Physique,Exercices,306,wednesday,15:15,17:00,CE1106,99,8,459,non
+2023-2024,HIVER,PHYS-101(e),Physique générale : mécanique,Physique,Exercices,306,wednesday,15:15,17:00,CM1100,49,8,459,non
+2023-2024,HIVER,PHYS-101(e),Physique générale : mécanique,Physique,Exercices,306,wednesday,15:15,17:00,CO010,40,8,459,non
+2023-2024,HIVER,PHYS-101(e),Physique générale : mécanique,Physique,Exercices,306,wednesday,15:15,17:00,CO017,40,8,459,non
+2023-2024,HIVER,PHYS-101(e),Physique générale : mécanique,Physique,Exercices,306,wednesday,15:15,17:00,CO121,31,8,459,non
+2023-2024,HIVER,PHYS-101(e),Physique générale : mécanique,Physique,Exercices,306,thursday,11:15,12:00,CE6,308,1,308,non
+2023-2024,HIVER,PHYS-101(en),Physique générale : mécanique (anglais),Physique,Cours,363,monday,16:15,19:00,CE6,308,1,308,oui
+2023-2024,HIVER,PHYS-101(en),Physique générale : mécanique (anglais),Physique,Exercices,363,tuesday,10:15,11:00,SG1,348,1,348,oui
+2023-2024,HIVER,PHYS-101(en),Physique générale : mécanique (anglais),Physique,Exercices,363,wednesday,17:15,19:00,CM1120,100,8,491,non
+2023-2024,HIVER,PHYS-101(en),Physique générale : mécanique (anglais),Physique,Exercices,363,wednesday,17:15,19:00,CM1121,100,8,491,non
+2023-2024,HIVER,PHYS-101(en),Physique générale : mécanique (anglais),Physique,Exercices,363,wednesday,17:15,19:00,CO010,40,8,491,non
+2023-2024,HIVER,PHYS-101(en),Physique générale : mécanique (anglais),Physique,Exercices,363,wednesday,17:15,19:00,CO011,40,8,491,non
+2023-2024,HIVER,PHYS-101(en),Physique générale : mécanique (anglais),Physique,Exercices,363,wednesday,17:15,19:00,CO015,40,8,491,non
+2023-2024,HIVER,PHYS-101(en),Physique générale : mécanique (anglais),Physique,Exercices,363,wednesday,17:15,19:00,CO016,40,8,491,non
+2023-2024,HIVER,PHYS-101(en),Physique générale : mécanique (anglais),Physique,Exercices,363,wednesday,17:15,19:00,GCA330,71,8,491,non
+2023-2024,HIVER,PHYS-101(en),Physique générale : mécanique (anglais),Physique,Exercices,363,wednesday,17:15,19:00,GCA331,60,8,491,non
+2023-2024,HIVER,PHYS-101(f),Physique générale : mécanique,Physique,Cours,216,wednesday,09:15,12:00,CE4,233,1,233,non
+2023-2024,HIVER,PHYS-101(f),Physique générale : mécanique,Physique,Exercices,216,wednesday,15:15,16:00,CE4,233,1,233,non
+2023-2024,HIVER,PHYS-101(f),Physique générale : mécanique,Physique,Exercices,216,friday,10:15,12:00,BS260,72,7,342,non
+2023-2024,HIVER,PHYS-101(f),Physique générale : mécanique,Physique,Exercices,216,friday,10:15,12:00,CO010,40,7,342,non
+2023-2024,HIVER,PHYS-101(f),Physique générale : mécanique,Physique,Exercices,216,friday,10:15,12:00,CO011,40,7,342,non
+2023-2024,HIVER,PHYS-101(f),Physique générale : mécanique,Physique,Exercices,216,friday,10:15,12:00,CO015,40,7,342,non
+2023-2024,HIVER,PHYS-101(f),Physique générale : mécanique,Physique,Exercices,216,friday,10:15,12:00,CO016,40,7,342,non
+2023-2024,HIVER,PHYS-101(f),Physique générale : mécanique,Physique,Exercices,216,friday,10:15,12:00,CO017,40,7,342,non
+2023-2024,HIVER,PHYS-101(f),Physique générale : mécanique,Physique,Exercices,216,friday,10:15,12:00,GCB331,70,7,342,non
+2023-2024,HIVER,PHYS-101(j),Physique générale : mécanique,Physique,Cours,138,monday,15:15,17:00,CE4,233,1,233,non
+2023-2024,HIVER,PHYS-101(j),Physique générale : mécanique,Physique,Cours,138,tuesday,10:15,11:00,CE4,233,1,233,non
+2023-2024,HIVER,PHYS-101(j),Physique générale : mécanique,Physique,Exercices,138,wednesday,16:15,17:00,CE1,214,3,661,non
+2023-2024,HIVER,PHYS-101(j),Physique générale : mécanique,Physique,Exercices,138,wednesday,16:15,17:00,CE3,214,3,661,non
+2023-2024,HIVER,PHYS-101(j),Physique générale : mécanique,Physique,Exercices,138,wednesday,16:15,17:00,CE4,233,3,661,non
+2023-2024,HIVER,PHYS-101(j),Physique générale : mécanique,Physique,Exercices,138,wednesday,17:15,19:00,CE1101,64,3,235,non
+2023-2024,HIVER,PHYS-101(j),Physique générale : mécanique,Physique,Exercices,138,wednesday,17:15,19:00,CE1105,72,3,235,non
+2023-2024,HIVER,PHYS-101(j),Physique générale : mécanique,Physique,Exercices,138,wednesday,17:15,19:00,CE1106,99,3,235,non
+2023-2024,HIVER,PHYS-101(k),Physique générale : mécanique,Physique,Cours,220,monday,16:15,18:00,CE1,214,2,428,non
+2023-2024,HIVER,PHYS-101(k),Physique générale : mécanique,Physique,Cours,220,monday,16:15,18:00,CE3,214,2,428,non
+2023-2024,HIVER,PHYS-101(k),Physique générale : mécanique,Physique,Cours,220,tuesday,10:15,11:00,CO2,218,1,218,oui
+2023-2024,HIVER,PHYS-101(k),Physique générale : mécanique,Physique,Exercices,220,monday,18:15,19:00,CE1,214,2,428,non
+2023-2024,HIVER,PHYS-101(k),Physique générale : mécanique,Physique,Exercices,220,monday,18:15,19:00,CE3,214,2,428,non
+2023-2024,HIVER,PHYS-101(k),Physique générale : mécanique,Physique,Exercices,220,wednesday,17:15,19:00,CE1100,64,5,300,non
+2023-2024,HIVER,PHYS-101(k),Physique générale : mécanique,Physique,Exercices,220,wednesday,17:15,19:00,CM010,48,5,300,non
+2023-2024,HIVER,PHYS-101(k),Physique générale : mécanique,Physique,Exercices,220,wednesday,17:15,19:00,CM1100,49,5,300,non
+2023-2024,HIVER,PHYS-101(k),Physique générale : mécanique,Physique,Exercices,220,wednesday,17:15,19:00,CM1104,49,5,300,non
+2023-2024,HIVER,PHYS-101(k),Physique générale : mécanique,Physique,Exercices,220,wednesday,17:15,19:00,GCC330,90,5,300,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Cours,212,wednesday,17:15,19:00,CE3,214,2,447,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Cours,212,wednesday,17:15,19:00,CE4,233,2,447,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Cours,212,friday,16:15,17:00,BS150,64,6,592,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Cours,212,friday,16:15,17:00,BS160,100,6,592,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Cours,212,friday,16:15,17:00,BS260,72,6,592,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Cours,212,friday,16:15,17:00,BS270,72,6,592,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Cours,212,friday,16:15,17:00,CE1104,70,6,592,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Cours,212,friday,16:15,17:00,CE3,214,6,592,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Exercices,212,tuesday,10:15,11:00,CE1,214,2,428,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Exercices,212,tuesday,10:15,11:00,CE3,214,2,428,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Exercices,212,friday,17:15,19:00,BS150,64,9,679,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Exercices,212,friday,17:15,19:00,BS160,100,9,679,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Exercices,212,friday,17:15,19:00,BS170,100,9,679,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Exercices,212,friday,17:15,19:00,BS260,72,9,679,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Exercices,212,friday,17:15,19:00,BS270,72,9,679,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Exercices,212,friday,17:15,19:00,CE1101,64,9,679,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Exercices,212,friday,17:15,19:00,CE1103,65,9,679,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Exercices,212,friday,17:15,19:00,CE1104,70,9,679,non
+2023-2024,HIVER,PHYS-101(l),Physique générale : mécanique (classe inversée),Physique,Exercices,212,friday,17:15,19:00,CE1105,72,9,679,non
+2023-2024,HIVER,PHYS-101(m),Physique générale : mécanique (IN II),Physique,Cours,263,wednesday,17:15,19:00,CE1,214,1,214,oui
+2023-2024,HIVER,PHYS-101(m),Physique générale : mécanique (IN II),Physique,Cours,263,thursday,12:15,13:00,CE1,214,1,214,oui
+2023-2024,HIVER,PHYS-101(m),Physique générale : mécanique (IN II),Physique,Exercices,263,tuesday,10:15,12:00,CM1100,49,5,302,non
+2023-2024,HIVER,PHYS-101(m),Physique générale : mécanique (IN II),Physique,Exercices,263,tuesday,10:15,12:00,CM1104,49,5,302,non
+2023-2024,HIVER,PHYS-101(m),Physique générale : mécanique (IN II),Physique,Exercices,263,tuesday,10:15,12:00,CM1106,64,5,302,non
+2023-2024,HIVER,PHYS-101(m),Physique générale : mécanique (IN II),Physique,Exercices,263,tuesday,10:15,12:00,CM1121,100,5,302,non
+2023-2024,HIVER,PHYS-101(m),Physique générale : mécanique (IN II),Physique,Exercices,263,tuesday,10:15,12:00,CO124,40,5,302,non
+2023-2024,HIVER,PHYS-101(m),Physique générale : mécanique (IN II),Physique,Exercices,263,thursday,13:15,14:00,CE1,214,1,214,oui
+2023-2024,HIVER,PHYS-114,General physics: electromagnetism,Physique,Cours,236,tuesday,10:15,12:00,CE6,308,1,308,non
+2023-2024,HIVER,PHYS-114,General physics: electromagnetism,Physique,Exercices,236,thursday,17:15,19:00,CM1106,64,4,255,non
+2023-2024,HIVER,PHYS-114,General physics: electromagnetism,Physique,Exercices,236,thursday,17:15,19:00,GCA330,71,4,255,non
+2023-2024,HIVER,PHYS-114,General physics: electromagnetism,Physique,Exercices,236,thursday,17:15,19:00,GCB331,70,4,255,non
+2023-2024,HIVER,PHYS-114,General physics: electromagnetism,Physique,Exercices,236,thursday,17:15,19:00,GRA331,50,4,255,non
+2023-2024,HIVER,PHYS-200,Physics III,Physique,Cours,94,monday,10:15,12:00,CE3,214,2,398,non
+2023-2024,HIVER,PHYS-200,Physics III,Physique,Cours,94,monday,10:15,12:00,CM1,184,2,398,non
+2023-2024,HIVER,PHYS-200,Physics III,Physique,Cours,94,wednesday,13:15,15:00,CE1,214,1,214,non
+2023-2024,HIVER,PHYS-200,Physics III,Physique,Exercices,94,wednesday,15:15,17:00,BS260,72,3,200,non
+2023-2024,HIVER,PHYS-200,Physics III,Physique,Exercices,94,wednesday,15:15,17:00,BS270,72,3,200,non
+2023-2024,HIVER,PHYS-200,Physics III,Physique,Exercices,94,wednesday,15:15,17:00,CM011,56,3,200,non
+2023-2024,HIVER,PHYS-201(a),Physique générale : électromagnétisme,Physique,Cours,172,wednesday,08:15,10:00,CE1,214,1,214,non
+2023-2024,HIVER,PHYS-201(a),Physique générale : électromagnétisme,Physique,Cours,172,friday,08:15,10:00,CE1,214,1,214,non
+2023-2024,HIVER,PHYS-201(a),Physique générale : électromagnétisme,Physique,Exercices,172,monday,15:15,17:00,CE1101,64,5,273,non
+2023-2024,HIVER,PHYS-201(a),Physique générale : électromagnétisme,Physique,Exercices,172,monday,15:15,17:00,CE1105,72,5,273,non
+2023-2024,HIVER,PHYS-201(a),Physique générale : électromagnétisme,Physique,Exercices,172,monday,15:15,17:00,CM010,48,5,273,non
+2023-2024,HIVER,PHYS-201(a),Physique générale : électromagnétisme,Physique,Exercices,172,monday,15:15,17:00,CM012,49,5,273,non
+2023-2024,HIVER,PHYS-201(a),Physique générale : électromagnétisme,Physique,Exercices,172,monday,15:15,17:00,CM09,40,5,273,non
+2023-2024,HIVER,PHYS-201(b),Physique générale : électromagnétisme,Physique,Cours,321,monday,14:15,16:00,CE6,308,1,308,oui
+2023-2024,HIVER,PHYS-201(b),Physique générale : électromagnétisme,Physique,Cours,321,tuesday,13:15,15:00,CE6,308,1,308,oui
+2023-2024,HIVER,PHYS-201(b),Physique générale : électromagnétisme,Physique,Exercices,321,wednesday,08:15,10:00,CE1104,70,4,347,non
+2023-2024,HIVER,PHYS-201(b),Physique générale : électromagnétisme,Physique,Exercices,321,wednesday,08:15,10:00,CE1106,99,4,347,non
+2023-2024,HIVER,PHYS-201(b),Physique générale : électromagnétisme,Physique,Exercices,321,wednesday,08:15,10:00,CM1105,114,4,347,non
+2023-2024,HIVER,PHYS-201(b),Physique générale : électromagnétisme,Physique,Exercices,321,wednesday,08:15,10:00,CM1106,64,4,347,non
+2023-2024,HIVER,PHYS-201(c),Physique générale : électromagnétisme,Physique,Cours,180,monday,10:15,12:00,CE1,214,1,214,non
+2023-2024,HIVER,PHYS-201(c),Physique générale : électromagnétisme,Physique,Cours,180,tuesday,13:15,15:00,CE1,214,1,214,non
+2023-2024,HIVER,PHYS-201(c),Physique générale : électromagnétisme,Physique,Exercices,180,monday,13:15,15:00,CE1103,65,3,207,non
+2023-2024,HIVER,PHYS-201(c),Physique générale : électromagnétisme,Physique,Exercices,180,monday,13:15,15:00,CE1104,70,3,207,non
+2023-2024,HIVER,PHYS-201(c),Physique générale : électromagnétisme,Physique,Exercices,180,monday,13:15,15:00,CE1105,72,3,207,non
+2023-2024,HIVER,PHYS-201(d),General physics: electromagnetism,Physique,Cours,117,monday,14:15,16:00,CE3,214,2,326,non
+2023-2024,HIVER,PHYS-201(d),General physics: electromagnetism,Physique,Cours,117,monday,14:15,16:00,SG0211,112,2,326,non
+2023-2024,HIVER,PHYS-201(d),General physics: electromagnetism,Physique,Cours,117,tuesday,13:15,15:00,CE4,233,1,233,non
+2023-2024,HIVER,PHYS-201(d),General physics: electromagnetism,Physique,Exercices,117,wednesday,08:15,10:00,CM2,190,1,190,non
+2023-2024,HIVER,PHYS-201(e),General physics: electromagnetism,Physique,Cours,159,wednesday,08:15,10:00,CE3,214,2,664,non
+2023-2024,HIVER,PHYS-201(e),General physics: electromagnetism,Physique,Cours,159,wednesday,08:15,10:00,STCC - Cloud C,450,2,664,non
+2023-2024,HIVER,PHYS-201(e),General physics: electromagnetism,Physique,Exercices,159,friday,08:15,10:00,CE1101,64,4,260,non
+2023-2024,HIVER,PHYS-201(e),General physics: electromagnetism,Physique,Exercices,159,friday,08:15,10:00,CE1103,65,4,260,non
+2023-2024,HIVER,PHYS-201(e),General physics: electromagnetism,Physique,Exercices,159,friday,08:15,10:00,CE1105,72,4,260,non
+2023-2024,HIVER,PHYS-201(e),General physics: electromagnetism,Physique,Exercices,159,friday,08:15,10:00,GRA332,59,4,260,non
+2023-2024,HIVER,PREPA-021,Physique (pour CMS),Cours de mathématiques spéciales,Cours,269,monday,08:15,10:00,CE1,214,3,618,non
+2023-2024,HIVER,PREPA-021,Physique (pour CMS),Cours de mathématiques spéciales,Cours,269,monday,08:15,10:00,CE3,214,3,618,non
+2023-2024,HIVER,PREPA-021,Physique (pour CMS),Cours de mathématiques spéciales,Cours,269,monday,08:15,10:00,CM2,190,3,618,non
+2023-2024,HIVER,PREPA-021,Physique (pour CMS),Cours de mathématiques spéciales,Cours,269,thursday,08:15,10:00,CE1,214,2,447,non
+2023-2024,HIVER,PREPA-021,Physique (pour CMS),Cours de mathématiques spéciales,Cours,269,thursday,08:15,10:00,CE4,233,2,447,non
+2023-2024,HIVER,PREPA-021,Physique (pour CMS),Cours de mathématiques spéciales,Exercices,269,monday,10:15,12:00,BS160,100,3,299,non
+2023-2024,HIVER,PREPA-021,Physique (pour CMS),Cours de mathématiques spéciales,Exercices,269,monday,10:15,12:00,BS170,100,3,299,non
+2023-2024,HIVER,PREPA-021,Physique (pour CMS),Cours de mathématiques spéciales,Exercices,269,monday,10:15,12:00,CE1106,99,3,299,non
+2023-2024,HIVER,UNIL-122,Physique expérimentale I (pour SFU),Physique,Cours,275,thursday,13:15,15:00,CE4,233,1,233,oui
+2023-2024,HIVER,UNIL-122,Physique expérimentale I (pour SFU),Physique,Exercices,275,thursday,15:15,17:00,AAC014,60,5,529,non
+2023-2024,HIVER,UNIL-122,Physique expérimentale I (pour SFU),Physique,Exercices,275,thursday,15:15,17:00,CE1101,64,5,529,non
+2023-2024,HIVER,UNIL-122,Physique expérimentale I (pour SFU),Physique,Exercices,275,thursday,15:15,17:00,CE4,233,5,529,non
+2023-2024,HIVER,UNIL-122,Physique expérimentale I (pour SFU),Physique,Exercices,275,thursday,15:15,17:00,GCA331,60,5,529,non
+2023-2024,HIVER,UNIL-122,Physique expérimentale I (pour SFU),Physique,Exercices,275,thursday,15:15,17:00,SG0211,112,5,529,non
+2023-2024,HIVER,UNIL-133,Physique générale pour pharmacie (pour PHA),Physique,Cours,65,friday,13:15,15:00,CE3,214,3,620,non
+2023-2024,HIVER,UNIL-133,Physique générale pour pharmacie (pour PHA),Physique,Cours,65,friday,13:15,15:00,CE5,98,3,620,non
+2023-2024,HIVER,UNIL-133,Physique générale pour pharmacie (pour PHA),Physique,Cours,65,friday,13:15,15:00,CE6,308,3,620,non
+2023-2024,HIVER,UNIL-133,Physique générale pour pharmacie (pour PHA),Physique,Exercices,65,friday,15:15,17:00,CE1105,72,1,72,non
+2023-2024,HIVER,UNIL-208,Physique générale II (pour BIO+GEU),Physique,Cours,128,monday,08:15,10:00,CE4,233,1,233,non

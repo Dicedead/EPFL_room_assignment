@@ -1,5 +1,7 @@
 import sys
-sys.stdout = open('results/results_biggest_choice.txt', 'w')
+from copy import deepcopy
+
+sys.stdout = open('results/results_all_possibilities.txt', 'w')
 
 from preprocessing_stats import *
 
@@ -21,16 +23,8 @@ def find_better_room(lecture, all_lectures) -> bool:
                            )
                           ]
 
-    if len(candidate_lectures) > 0:
-        candidate_lectures.sort(key=lambda x: x.num_participants, reverse=True)
-        print_swap(lecture, candidate_lectures[0])
-        temp = lecture.allocated_room
-        lecture.allocated_room = candidate_lectures[0].allocated_room
-        candidate_lectures[0].allocated_room = temp
-        lecture.overbooked = False
-        lecture.already_swapped = True
-        return True
-    return False
+    for candidate_lecture in candidate_lectures:
+        print_swap(lecture, candidate_lecture)
 
 
 sessions = construct_all_sessions("data/occup.csv")
@@ -50,24 +44,13 @@ while len(overbooked_lectures) > 0:
     lecture = overbooked_lectures.pop()
     candidate_lectures = [swap_lecture for swap_lecture in sessions if
                           (lecture.timeslot == swap_lecture.timeslot
-                           and not swap_lecture.overbooked
                            and lecture.num_participants > swap_lecture.num_participants
                            and lecture.allocated_room.capacity < swap_lecture.allocated_room.capacity
                            )
                           ]
 
-    if len(candidate_lectures) > 0:
-        candidate_lectures.sort(key=lambda x: x.allocated_room.capacity, reverse=True)
-        print_swap(lecture, candidate_lectures[0])
-        temp = lecture.allocated_room
-        lecture.allocated_room = candidate_lectures[0].allocated_room
-        candidate_lectures[0].allocated_room = temp
-        lecture.overbooked = lecture.allocated_room.capacity < lecture.num_participants
-
-        if candidate_lectures[0].allocated_room.capacity < candidate_lectures[0].num_participants:
-            candidate_lectures[0].overbooked = True
-            overbooked_lectures.append(candidate_lectures[0])
-            overbooked_lectures.sort(key=lambda x: x.num_participants - x.allocated_room.capacity)
+    for candidate_lecture in candidate_lectures:
+        print_swap(lecture, candidate_lecture)
 
 new_overbooked_lectures = [lect for lect in sessions if lect.overbooked and lect.type == SessionType.Lecture]
 new_num_overbooked_students = 0
@@ -84,5 +67,3 @@ for lect in new_overbooked_lectures:
 
 print(f"New number of students in overbooked lectures: {new_num_overbooked_students}")
 print(f"Improvement: {(1 - new_num_overbooked_students/num_overbooked_students) * 100:.2f}% less students in overbooked lectures")
-
-
